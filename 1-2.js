@@ -15,7 +15,6 @@ let index = 0;
 
 do {
   value = value + parseInt(input[index]);
-  console.log(index, value);
   if (occurrences.hasOwnProperty(value)) {
     done = true;
   } else if (index === input.length - 1) {
